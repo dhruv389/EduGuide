@@ -38,9 +38,9 @@ const sessions = [
     <div className='w-screen flex justify-center items-center flex-col gap-6'>
        <div className="w-full mt-14 flex h-[60vh]  justify-center items-center">
        <div className="h-[12rem] w-[12rem] bg-blue-50 relative rotate-12 -z-20 rounded-full left-9"></div>
-        <div className="h-full w-[42%] flex flex-col justify-center items-center">
-            <p className='font-bold  text-4xl'>Unlock Your True Potential with Expert Guidance</p>
-            <p className='text-sm mt-5 text-gray-500'>Personalized mentorship across career planning, wellness, exam prep, and more. Connect with professionals anytime, anywhere, and thrive with the support you deserve.</p>
+        <div className="h-full w-[45%] flex flex-col justify-center items-center">
+            <p className='font-bold  text-[2.6rem]'>Unlock Your True Potential with Expert Guidance</p>
+            <p className='text-base mt-4 text-gray-500'>Personalized mentorship across career planning, wellness, exam prep, and more. Connect with professionals anytime, anywhere, and thrive with the support you deserve.</p>
         </div>
         <div className="h-full w-[45%]"><img src={home1} alt="" className='h-full w-full object-contain'  /></div>
        </div>
@@ -70,7 +70,7 @@ const sessions = [
     </div>
 
       {/* Browse Our Top Sessions */}
-      <div className="text-center my-8">
+      <div className="text-center w-[84%] my-8">
         <h1 className="text-4xl font-bold">Browse Our Top Sessions</h1>
         <div className="flex justify-center space-x-4 mt-6">
           <button className="py-2 px-4 bg-gray-200 rounded">Career Planning</button>
@@ -78,7 +78,7 @@ const sessions = [
           <button className="py-2 px-4 bg-gray-200 rounded">Exam Preparation</button>
           <button className="py-2 px-4 bg-gray-200 rounded">Academic Subjects</button>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 mt-6">
           {sessions.map((session, index) => (
             <div key={index} className="bg-white shadow-md rounded-lg overflow-hidden">
               <img src={session.image} alt={session.name} className="w-full h-40 object-cover" />
