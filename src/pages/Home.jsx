@@ -36,7 +36,7 @@ const sessions = [
 
   return (
     <div className='w-screen flex justify-center items-center flex-col gap-6'>
-       <div className="w-full mt-14 flex h-[60vh]  justify-center items-center">
+       <div className="w-full mt-14 flex bg-gradient-to-r from-gray-50 via-indigo-50 to-pink-50 h-[70vh]  justify-center items-center">
        <div className="h-[12rem] w-[12rem] bg-blue-50 relative rotate-12 -z-20 rounded-full left-9"></div>
         <div className="h-full w-[45%] flex flex-col justify-center items-center">
             <p className='font-bold  text-[2.6rem]'>Unlock Your True Potential with Expert Guidance</p>
@@ -97,7 +97,7 @@ const sessions = [
       </div>
     </div>
     
-    Home
+
     
     </div>
   )

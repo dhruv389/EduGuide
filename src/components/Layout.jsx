@@ -15,7 +15,7 @@ const Layout = () => {
 
   return (
     
-    <div className="content">
+    <div className="content  bg-gradient-to-r  ">
      
     
 
